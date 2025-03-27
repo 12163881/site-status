@@ -32,14 +32,6 @@
             <!-- 跳转 -->
             <n-button>              
             </n-button>
-
-          </n-flex>
-          <n-flex>
-
-
-
-          </n-flex>
-        </n-flex>
         <!-- 每日数据 -->
         <n-flex
           v-if="site?.days?.length"
