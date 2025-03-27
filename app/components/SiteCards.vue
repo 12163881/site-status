@@ -38,12 +38,13 @@
               round
               @click="jumpLink(site.url)"
             >
+              <template #icon>
               </template>
             </n-button>
           </n-flex>
           <n-flex
             :style="{
-              '--bg-color': `var(--${siteStatusMap[site.status]?.type || 'unknown'}-color)`,
+              '': `var(--${siteStatusMap[site.status]?.type || 'unknown'}-color)`,
             }"
             class="status"
             align="center"
