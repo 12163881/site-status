@@ -34,7 +34,7 @@
               v-if="site?.url"
 
 
-              @click="jumpLink(site.url)"
+
             >
               <template #icon>
               </template>
