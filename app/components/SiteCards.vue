@@ -10,6 +10,16 @@
         hoverable
       >
         <!-- 信息 -->
+        <n-button
+        v-if="site?.url"
+        :focusable="false"
+        size="tiny"
+        tertiary
+        round
+        @click="jumpLink(site.url)"
+        >
+
+        <template>
         <n-flex class="meta" justify="space-between">
           <n-flex :size="8" class="title" align="center">
             <n-text class="site-name">{{ site.name }}</n-text>
@@ -41,7 +51,7 @@
             align="center"
           >
             <div v-if="site.status !== 0" class="point" />
-            <Icon v-else name="icon:pause" />
+            <Icon v-else name="" />
             <n-text>{{ siteStatusMap[site.status]?.text }}</n-text>
           </n-flex>
         </n-flex>          
