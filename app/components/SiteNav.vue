@@ -79,7 +79,7 @@ const renderIcon = (icon: string) => () =>
 const navMenu = computed<DropdownOption[]>(() => [
   {
     key: "github",
-    label: "GitHub",
+    label: "鲸跃云",
     icon: renderIcon("icon:home"),
     props: {
       onClick: () => window.open("https://www.jingyueyun.com"),
