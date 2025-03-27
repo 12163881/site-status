@@ -40,7 +40,8 @@
             :style="{
 
             }"
-
+            class="status"
+             align="center"
           >
 
 
