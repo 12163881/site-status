@@ -32,7 +32,7 @@
             <!-- 跳转 -->
             <n-button
               v-if="site?.url"
-              :focusable="false"
+
 
               @click="jumpLink(site.url)"
             >
