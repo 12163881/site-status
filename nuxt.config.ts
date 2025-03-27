@@ -7,9 +7,9 @@ import pkg from "./package.json";
 
 // site env
 const siteConfig = {
-  siteTitle: process.env.SITE_TITLE || "IMSYY 站点监测",
-  siteDescription: process.env.SITE_DESCRIPTION || "一个简约的站点监测",
-  siteKeywords: process.env.SITE_KEYWORDS || "站点监测,监测,监控",
+  siteTitle: process.env.SITE_TITLE || "鲸跃云健康看板",
+  siteDescription: process.env.SITE_DESCRIPTION || "鲸跃云status page是一个鲸跃云服务的健康看板，能够及时的展示腾讯云服务在各个可用区的可用性状态，以及影响服务可用性的相关事件信息。",
+  siteKeywords: process.env.SITE_KEYWORDS || "鲸跃云,鲸跃云监控,鲸跃云健康看板,站点监测,监测,监控",
   siteLogo: process.env.SITE_LOGO || "/favicon.ico",
   siteIcp: process.env.SITE_ICP || "",
   countDays: Number(process.env.COUNT_DAYS || 60),
