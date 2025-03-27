@@ -80,15 +80,10 @@ const navMenu = computed<DropdownOption[]>(() => [
   {
     key: "github",
     label: "GitHub",
-    icon: renderIcon("icon:github"),
+    icon: renderIcon("icon:home"),
     props: {
-      onClick: () => window.open("https://github.com/imsyy/site-status"),
+      onClick: () => window.open("https://www.jingyueyun.com"),
     },
-  },
-  {
-    key: "about",
-    label: t("nav.about"),
-    icon: renderIcon("icon:info"),
   },
   {
     key: "logout",
