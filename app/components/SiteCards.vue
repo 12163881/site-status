@@ -31,17 +31,16 @@
             </n-popover>
             <!-- 跳转 -->
  <n-button>              
-   <template #icon>
+
                </template>
              </n-button>
 
           </n-flex>
           <n-flex
             :style="{
-              '--bg-color': `var(--${siteStatusMap[site.status]?.type || 'unknown'}-color)`,
+
             }"
-            class="status"
-            align="center"
+
           >
 
 
