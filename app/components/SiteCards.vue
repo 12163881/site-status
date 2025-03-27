@@ -35,9 +35,7 @@
 
           </n-flex>
           <n-flex
-            :style="{
 
-            }"
             class="status"
 
           >
