@@ -30,7 +30,10 @@
               </n-text>
             </n-popover>
             <!-- 跳转 -->
- <n-button>
+ <n-button>              
+   <template #icon>
+               </template>
+             </n-button>
 
           </n-flex>
           <n-flex
@@ -41,7 +44,7 @@
             align="center"
           >
             <div v-if="site.status !== 0" class="point" />
-            <Icon v-else name="icon:pause" />
+
             <n-text>{{ siteStatusMap[site.status]?.text }}</n-text>
           </n-flex>
         </n-flex>
