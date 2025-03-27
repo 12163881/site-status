@@ -51,7 +51,6 @@ const { siteIcp, version } = configPublic;
 
 const linkData = {
   home: "https://www.jingyueyun.com",
-  email: "jingyueyun@88.com",
 };
 </script>
 
