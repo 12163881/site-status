@@ -39,7 +39,7 @@
               @click="jumpLink(site.url)"
             >
               <template #icon>
-                <Icon name="icon:link" />
+
               </template>
             </n-button>
           </n-flex>
