@@ -29,32 +29,6 @@
                 }}
               </n-text>
             </n-popover>
-            <!-- 跳转 -->
-            <n-button
-              v-if="site?.url"
-              :focusable="false"
-              size="tiny"
-              tertiary
-              round
-              @click="jumpLink(site.url)"
-            >
-              <template #icon>
-                <Icon name="icon:link" />
-              </template>
-            </n-button>
-          </n-flex>
-          <n-flex
-            :style="{
-              '--bg-color': `var(--${siteStatusMap[site.status]?.type || 'unknown'}-color)`,
-            }"
-            class="status"
-            align="center"
-          >
-            <div v-if="site.status !== 0" class="point" />
-            <Icon v-else name="icon:pause" />
-            <n-text>{{ siteStatusMap[site.status]?.text }}</n-text>
-          </n-flex>
-        </n-flex>
         <!-- 每日数据 -->
         <n-flex
           v-if="site?.days?.length"
