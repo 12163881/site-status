@@ -45,7 +45,7 @@
           >
 
 
-            <n-text>{{ siteStatusMap[site.status]?.text }}</n-text>
+
           </n-flex>
         </n-flex>
         <!-- 每日数据 -->
