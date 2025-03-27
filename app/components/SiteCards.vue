@@ -30,14 +30,7 @@
               </n-text>
             </n-popover>
             <!-- 跳转 -->
-            <n-button
-              v-if="site?.url"
-              :focusable="false"
-              size="tiny"
-              tertiary
-              round
-              @click="jumpLink(site.url)"
-            >
+
               <template>
               </template>
             </n-button>
