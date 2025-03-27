@@ -38,8 +38,6 @@
               round
               @click="jumpLink(site.url)"
             >
-              <template #icon>
-
               </template>
             </n-button>
           </n-flex>
