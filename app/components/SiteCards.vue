@@ -30,10 +30,8 @@
               </n-text>
             </n-popover>
             <!-- 跳转 -->
- <n-button>              
-
-
-             </n-button>
+            <n-button>              
+            </n-button>
 
           </n-flex>
           <n-flex
@@ -41,7 +39,7 @@
 
             }"
             class="status"
-             align="center"
+
           >
 
 
