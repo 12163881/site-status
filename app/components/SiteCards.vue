@@ -34,12 +34,9 @@
               v-if="site?.url"
               :focusable="false"
               size="tiny"
-              tertiary
-              round
               @click="jumpLink(site.url)"
             >
               <template #icon>
-                <Icon name="icon:link" />
               </template>
             </n-button>
           </n-flex>
