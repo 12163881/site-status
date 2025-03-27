@@ -16,8 +16,8 @@
     </n-flex>
     <n-flex :size="4" class="text" align="center" vertical>
       <n-p depth="3">
-        <n-text depth="3" @click="jumpLink(linkData.github)">
-          SiteStatus
+        <n-text depth="3" @click="jumpLink('https://www.jingyueyun.com/')">
+          鲸跃云status page
         </n-text>
         Version {{ version }}
       </n-p>
@@ -31,8 +31,8 @@
         {{ $t("footer.fiveMinutes") }}
       </n-p>
       <n-p depth="3">
-        Copyright &copy; 2020 - {{ new Date().getFullYear() }}
-        <n-text depth="3" @click="jumpLink(linkData.home)"> IMSYY </n-text>
+        Copyright &copy; 1999 - {{ new Date().getFullYear() }}
+        <n-text depth="3" @click="jumpLink(linkData.home)"> JingYueYun </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
