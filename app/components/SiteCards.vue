@@ -34,11 +34,7 @@
             </n-button>
 
           </n-flex>
-          <n-flex
-
-            class="status"
-
-          >
+          <n-flex>
 
 
 
