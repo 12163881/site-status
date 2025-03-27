@@ -33,7 +33,7 @@
             <n-button
               v-if="site?.url"
               :focusable="false"
-              size="tiny"
+
               @click="jumpLink(site.url)"
             >
               <template #icon>
