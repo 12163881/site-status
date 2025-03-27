@@ -43,7 +43,7 @@
             class="status"
             align="center"
           >
-            <div v-if="site.status !== 0" class="point" />
+
 
             <n-text>{{ siteStatusMap[site.status]?.text }}</n-text>
           </n-flex>
