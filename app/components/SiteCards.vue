@@ -30,13 +30,6 @@
               </n-text>
             </n-popover>
             <!-- 跳转 -->
-
-            
-           </n-flex>
-           <n-flex>
- 
- 
- 
            </n-flex>
          </n-flex>
         <!-- 每日数据 -->
